@@ -2,7 +2,7 @@
 
 ![](images/dungeon.png)
 
-This is a simple JS dice roll game where you name a hero and monster then have them fight until either until one or both perish.
+This is a simple JS dice roll game where you name a hero and monster then have them fight until either one perishes.
 
 - Create a `week-2-project` folder, create a file called `showDown.js` in the `week-2-project` folder.
 - Create an `index.html` file, change the `src` or the JavaScript to `showDown.js`.
