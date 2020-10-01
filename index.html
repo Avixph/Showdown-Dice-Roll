@@ -28,17 +28,18 @@
       <div id="start" class="enterDungeon">
         <h3>Enter at your Peril!</h3>
         <div><img src="images/dungeon.png" class="enterance" /></div>
-
         <button class="button" id="startButton">Enter</button>
-        <p class="result"></p>
       </div>
 
       <div id="battle" class="battleDungeon" hidden>
         <h3>There Be Monsters!</h3>
-        <div><img src="images/battle.png" class="monsterBattle" /></div>
-        <button class="button" id="returnButton">Retreat</button>
+        <div>
+          <img src="images/battle.png" class="monsterBattle" />
+          <p class="result"></p>
+        </div>
+
+        <button class="button" id="returnButton"onclick="retreat()">Retreat</button>
         <button class="button" id="fightButton" onclick="fight()">Fight</button>
-        <p class="result"></p>
       </div>
     </main>
 

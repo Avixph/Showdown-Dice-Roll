@@ -4,7 +4,7 @@ body {
   font-family: "MedievalSharp", cursive;
   font-size: 30px;
   background-color: #6a8687;
-  background-image: url(/background.png);
+  background-image: url(../images/background.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -27,7 +27,7 @@ h3 {
 .enterance,
 .monsterBattle {
   display: inline-block;
-  width: 500px;
+  width: 550px;
   height: auto;
   margin: auto;
   border: 6px solid #3d493a;
@@ -72,25 +72,15 @@ h3 {
   font-family: "MedievalSharp", cursive;
 }
 #startButton:hover,
-button:hover {
+#returnButton:hover,
+#fightButton:hover {
   color: #772d0a;
   background-color: #6a8687;
 }
 #startButton:active,
-button:active {
+#returnButton:active,
+#fightButton:active {
   background: #6a8687;
   box-shadow: inset 9px 9px 18px #597171, inset -9px -9px 18px #7b9b9d;
 }
 
-p {
-  justify-content: space-between;
-  text-align: inherit;
-  padding: 1rem;
-  font-family: "Quicksand", sans-serif;
-  font-size: 1.6rem;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3), -1px -1px 1.5px #fff;
-  width: 240px;
-  height: 120;
-  margin: 0 auto;
-  border: none;
-}
