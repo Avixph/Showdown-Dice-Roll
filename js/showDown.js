@@ -37,7 +37,7 @@
     let heroHealth = 50;
     let monsterHealth = 50;
 
-    while (heroHealth > 0 || monsterHealth > 0) {
+    while (heroHealth > 0 && monsterHealth > 0) {
       let heroDiceRoll = Math.floor(Math.random() * 20) + 1;
       let monsterDiceRoll = Math.floor(Math.random() * 20) + 1;
 
